@@ -105,6 +105,15 @@ export default function Footer() {
                   Let's Talk
                 </Link>
               </li>
+              <li>
+                <a
+                  href="/brochure/Shreej_IT_Solution_Brochure.pdf"
+                  download
+                  className="hover:text-white transition-colors block py-0.5 text-brand-400 hover:underline"
+                >
+                  Download Brochure
+                </a>
+              </li>
             </ul>
           </div>
 

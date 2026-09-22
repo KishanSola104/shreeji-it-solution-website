@@ -318,9 +318,7 @@ export default function ContactForm() {
             )}
           </button>
 
-          <p className="text-[11px] text-slate-400 text-center pt-1">
-            Submissions are sent directly to shreejiitsolution120@gmail.com &bull; No spam.
-          </p>
+         
         </form>
       )}
     </div>

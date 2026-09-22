@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2, User, Building2, Target, Cpu } from 'lucide-react';
+import { ArrowRight, CheckCircle2, User, Building2, Target, Cpu, Download } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 
 export default function AboutSection() {
@@ -51,6 +51,15 @@ export default function AboutSection() {
                 <span>About Founder</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
+
+              <a
+                href="/brochure/Shreej_IT_Solution_Brochure.pdf"
+                download
+                className="inline-flex items-center gap-2 bg-brand-50 hover:bg-brand-100 text-brand-700 border border-brand-200 font-semibold px-5 py-2.5 rounded-lg shadow-sm transition-colors text-sm"
+              >
+                <Download className="w-4 h-4 text-brand-600" />
+                <span>Download Brochure</span>
+              </a>
             </div>
           </div>
 

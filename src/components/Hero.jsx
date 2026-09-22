@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2, ShieldCheck, Terminal, Layers, Code, Zap } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ShieldCheck, Terminal, Layers, Code, Zap, Download } from 'lucide-react';
 import WhatsAppButton from './WhatsAppButton';
 import { DEFAULT_MESSAGES } from '../utils/whatsapp';
 
@@ -42,6 +42,15 @@ export default function Hero() {
                 <span>Start a Project</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
+
+              <a
+                href="/brochure/Shreej_IT_Solution_Brochure.pdf"
+                download
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-900 border border-slate-300 font-semibold px-6 py-3.5 rounded-lg shadow-sm hover:shadow transition-all duration-200 transform hover:-translate-y-0.5 text-base"
+              >
+                <Download className="w-4 h-4 text-brand-600" />
+                <span>Download Brochure</span>
+              </a>
 
               <WhatsAppButton
                 message={DEFAULT_MESSAGES.hero}
